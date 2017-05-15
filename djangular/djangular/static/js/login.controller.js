@@ -5,7 +5,7 @@
     angular.module("scrumboard.demo")
         .controller("LoginController",
                     ["$scope", "$http", "$location", "Login", LoginController]);
-
+    // Just some things
     function LoginController( $scope, $http, $location, Login ) {
 
         $scope.login = function () {
